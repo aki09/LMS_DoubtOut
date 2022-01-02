@@ -1,0 +1,67 @@
+name: doubt_out
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^0.13.6
+  firebase_auth: ^0.16.1
+  image_picker: ^0.6.7+1
+  cupertino_icons: ^0.1.3
+  flutter_speed_dial: ^1.2.5
+  firebase_storage: ^3.1.6
+  google_sign_in: ^4.5.1
+  shared_preferences: ^0.5.7+3
+  file_picker: ^1.11.0
+  modal_progress_hud: ^0.1.3
+  flutter_downloader: ^1.4.4
+  http: ^0.12.1
+  path_provider: ^1.6.10
+  dio: ^3.0.9
+  firebase_database: ^3.1.6
+  jitsi_meet: ^0.2.2
+  toast: ^0.1.5
+  rflutter_alert: ^1.0.3
+  progress_dialog: ^1.2.4
+  url_launcher: ^5.4.11
+  open_file: ^3.0.1
+  youtube_player_flutter: ^7.0.0+6
+  oauth2: ^1.6.1
+  flutter_image_compress: ^0.6.8
+  flip_card: ^0.4.4
+  firebase_messaging: ^6.0.16
+  whiteboardkit: ^0.2.2
+  web_socket_channel: ^1.1.0
+  flutter_screen_recording: ^1.0.10
+  permission_handler: ^5.0.1+1
+  animated_button: 0.1.2
+  slider_button:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
+  fonts:
+    - family: Handlee
+      fonts:
+        - asset: fonts/Handlee-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
